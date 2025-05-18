@@ -1,11 +1,15 @@
+import { Categories, Container } from '@/components/shared'
+import { Title } from '@/components/shared/title'
 import { Button } from '@/components/ui/button'
 
 
 export default function Home() {
   return (
-    <div>
-      Главная
-      {/* <Button variant="outline">Кнопка</Button> */}
-    </div>
-  );
+    <>
+      <Container className='mt-10'>
+        <Title text="Все пиццы" size="lg" className="font-extrabold"/>
+        <Categories />
+      </Container>
+    </>
+  )
 }
