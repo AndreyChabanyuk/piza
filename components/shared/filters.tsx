@@ -90,6 +90,18 @@ export const Filters: React.FC<Props> = ({ className }) => {
             text: 'Красный лук',
             value: '5'
         },
+        {
+            text: 'Помидор',
+            value: '6'
+        },
+        {
+            text: 'Морковь',
+            value: '7'
+        },
+        {
+            text: 'Ананас',
+            value: '8'
+        },
         ]}
     />
     </div>
