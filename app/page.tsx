@@ -3,7 +3,7 @@ import { ProductCard } from '@/components/shared/product-card'
 import { ProductsGroupList } from '@/components/shared/products-group-list'
 import { Title } from '@/components/shared/title'
 import { TopBar } from '@/components/shared/top-bar'
-import { useIntersection } from 'react-use'
+
 
 
 export default function Home() {
